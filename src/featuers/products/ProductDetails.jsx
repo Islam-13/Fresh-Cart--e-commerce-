@@ -39,6 +39,8 @@ function ProductDetails() {
     addCartItem(productId);
   }
 
+  console.log(product)
+
   return (
     <div className="container py-5">
       <Helmet>
