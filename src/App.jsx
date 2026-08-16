@@ -202,9 +202,7 @@ function App() {
 
   return (
     <>
-      <Offline>
-        <Off />
-      </Offline>
+      
       <QueryClientProvider client={queryClient}>
         <HelmetProvider>
           <AuthProvider>
